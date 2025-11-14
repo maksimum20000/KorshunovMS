@@ -47,3 +47,27 @@ x = 5
 print(x)
 x = 10
 print(x)
+
+#Задача 6
+#Создайте три переменные с осмысленными именами, которые описывают ваши любимые:
+#Число (целое)
+#Напиток (строка)
+#Цвет (строка)
+#Присвойте им соответствующие значения по вашему выбору.
+favorite_number = 12
+favorite_drink = "beer"
+favorite_color = "yellow"
+
+#У вас есть три переменные:
+#num_str = "123"
+#num_float = 45.9
+#num_int = 67
+#Преобразуйте num_str в целое число, а num_float — в целое число (отбросив дробную часть).
+#Сложите результаты этих преобразований с переменной num_int и выведите итоговую сумму.
+num_str = "123"
+num_float = 45.9
+num_int = 67
+num_str_int = int(num_str)
+num_float_int = int(num_float)
+sum_of_variables = num_str_int + num_float_int + num_int
+print(sum_of_variables)
